@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Voyage Culinaire : Mayotte & Togo</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <header class="topbar">
+            <div class="header-left">
+                <img src="images/logo.png" alt="Logo" width="120" />
+                <div clas="brand">
+                <h1>Mayotte x Togo</h1>
+                </div>
+            </div>
+             <nav class="navbar">
+                <ul class="menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="recettes.html">Recettes</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="Connexion">
+                <button id="btnInscription">👤Inscription</button>
+                <form id="formConnexion">
+                    <label for="nom">Nom: </label><br />
+                    <input type="text" id="nom" name = "nom" required /><br />
+
+                    <label for="email">Adresse email:</label><br />
+                    <input type="email" id="mail" name = "mail" required /><br />
+                    
+                    <label for="password">Mot de passe</label><br />
+                    <input type="password" id="password" name = "password" required /><br />
+
+                    <label for="password2">Confirmation du mot de passe</label><br />
+                    <input type="password" id="password2" name = "password2" required /><br />
+                    
+                    <label for ="age">Âge</label><br>
+                    <input type="number" id="age" name = "age" required/><br/>
+                    
+                    <button type="button"  onclick="validateForm()" class="btn">Valider</button>
+                </form>
+            </div>
+        </header>
+        
+        <main>
+            <div class="hero">
+                <h2>Bienvenue dans un univers où les saveurs mahoraises et togolaises se rencontrent !</h2>
+                <p>
+                    Découvrez des recettes authentiques, délicieuses et faciles à préparer, inspirées des traditions de
+                    l'Océan Indien et de l'Afrique de l'Ouest.
+                </p>
+            </div>
+            <h2></h2>
+            <div class="recettes-accueil">
+                <article class="carte-recette">
+                    <img src="images/Riz au coco.jpg" alt="recette1" width="178" height="147" />
+                </article>
+
+                <article class="carte-recette">
+                    <img src="images/gaou.jpg" alt="recette2" width="178" height="147" />
+                    <a></a>
+                </article>
+            </div>
+            <a href="recettes.html" class="btn-plus">Voir nos recettes →</a>
+            <button id="generateBtn">Afficher les recettes</button>
+            <ul id="recipeList" class="item-list"></ul>
+            <h2 id="welcomeUser"></h2>
+            <p>Voyager avec nous entre le Togo et Mayotte !</p>
+            
+<section>
+    <h2>Nos recettes</h2>
+    <button id="generateBtn">Afficher les recettes</button>
+    <ul id="itemList"></ul>
+</section>
+
+        </main>
+        <footer>
+            <figure>
+                <img src="images/Togo_1.png" class="Togo_1" width="28" height="25" />
+                © 2025 - Cuisine Mahoraise et Togolaise
+                <a href="contact.html" class="footer-contact">contact</a>
+                <img src="images/Mayotte_2.png" class="Mayotte_2" width="27" height="25" />
+            </figure>
+            <div id="clock"></div>
+        </footer>
+
+        <button id="btnTop" class="scroll-top">🔝</button>
+        <script src="script.js"></script>
+    </body>
+</html>
