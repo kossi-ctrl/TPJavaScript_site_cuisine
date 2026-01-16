@@ -41,13 +41,11 @@ TPJavaScript_site_cuisine/
 
 ---
 
-# Auteurs
+## 👥 Auteurs
 
--DOKANOU k. Daniel
-
--HALIM Thamra
-
--ZANGBE kossi
+- **DOKANOU K. Daniel**  
+- **HALIM Thamra**  
+- **ZANGBE Kossi**
 
 ---
 
